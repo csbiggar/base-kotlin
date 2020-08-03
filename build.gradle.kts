@@ -19,6 +19,7 @@ val khttpVersion = "1.0.0"
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation(kotlin("reflect"))
 
     implementation("io.github.microutils:kotlin-logging:$kotlinLoggingVersion")
     implementation("khttp:khttp:${khttpVersion}")
