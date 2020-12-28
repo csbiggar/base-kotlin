@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.4.0-rc"
+    kotlin("jvm") version "1.4.21"
     id("com.github.ben-manes.versions") version "0.29.0"
 }
 
@@ -11,10 +11,10 @@ repositories {
     jcenter()
 }
 
-val junitJupiterVersion = "5.6.2"
+val junitJupiterVersion = "5.7.0"
 val kotlinLoggingVersion = "1.8.3"
 val logbackClassicVersion = "1.2.3"
-val assertJVersion = "3.16.1"
+val assertJVersion = "3.18.1"
 val khttpVersion = "1.0.0"
 
 dependencies {
@@ -40,7 +40,7 @@ tasks.compileTestKotlin {
 }
 
 tasks.wrapper {
-    gradleVersion = "6.5.1"
+    gradleVersion = "6.7.1"
     distributionType = Wrapper.DistributionType.ALL
 }
 
